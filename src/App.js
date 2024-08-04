@@ -7,7 +7,7 @@ import Blog from './pages/blog';
 import Home from './pages/home';
 import {BrowserRouter , Routes , Route} from 'react-router-dom'
 import Pricing from './pages/pricing';
-import Footer from './components/footer';
+import Movies from './pages/movieDB';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
           <Route path='about' element={<About/>} />
           <Route path='blog' element={<Blog/>} />
           <Route path='pricing' element={<Pricing/>} />
+          <Route path='movieDB' element={<Movies />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -19,6 +19,9 @@ const Layout = () =>{
                     <li className="px-4">
                         <Link to='pricing' className="text-decoration-none text-secondary">Pricing</Link>
                     </li>
+                    <li className="px-4">
+                        <Link to='movieDB' className="text-decoration-none text-secondary">Movie</Link>
+                    </li>
                 </ul>
                 <Link to='login' className="text-secondary text-decoration-none ms-auto mt-3 pe-4 fw-semibold">Login</Link>
            </nav> 
