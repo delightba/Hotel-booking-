@@ -80,13 +80,13 @@ export const PopularPost = (props) =>{
 
 export const RecentPost = (props) =>{
     return(
-        <div className="d-flex">
+        <div className="d-flex my-5">
             <div>
-                <h6>{props.heading}</h6>
+                <h6 className="fs-5 fw-bold text-primary-emphasis">{props.heading}</h6>
                 <p className="text-body-secondary">{props.author}</p>
             </div>
             <div>
-                <img src={props.image} alt={props.alt} />
+                <img src={props.image} className="rounded ms-3 w-75" alt={props.alt} />
             </div>
         </div>
     )

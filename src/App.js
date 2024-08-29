@@ -22,12 +22,6 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-    // <div className="App">
-    //   <header>
-    //     <Layout />
-    //   </header>
-    //   <Home />
-    // </div>
   );
 }
 
