@@ -1,12 +1,14 @@
 import { BsArrowRight } from "react-icons/bs";
 import { BlogProp } from "../components/props";
-import PauseOnHover from "../components/slider";
+import Responsive from "../components/slider";
+import Footer from "../components/footer";
 
 
 
 const Pricing = () => {
     return ( 
-        <div className="mt-5 pt-5 ms-5">
+        <div className="mt-5 pt-5">
+            <div className=" ms-5">
             <div className="row container">
                 <div className="col-sm-8 col-md-8 col-lg-4">
                     <h1 className="fw-bolder text-primary-emphasis">Trending Tours</h1>
@@ -39,7 +41,9 @@ const Pricing = () => {
                     </div>
                 </div>
             </div>
-            <PauseOnHover />
+            </div>
+            <Responsive />
+            <Footer/>
         </div>
      );
 }

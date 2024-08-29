@@ -1,36 +1,33 @@
-import { findAllByAltText } from "@testing-library/react";
-import { BsArrowRight } from "react-icons/bs";
+// import { findAllByAltText } from "@testing-library/react";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { FaRegClock } from "react-icons/fa6";
-import { BsGeoAlt } from "react-icons/bs";
-import { RiShieldFlashLine } from "react-icons/ri";
+import { BsArrowRight, BsGeoAlt } from "react-icons/bs";
 import { BsStarFill } from "react-icons/bs";
 import { FiDollarSign } from "react-icons/fi";
+import { RiDoubleQuotesL } from "react-icons/ri";
+import { RiDoubleQuotesR } from "react-icons/ri";
 
-// const AboutProp = (props) => {
-//     return (  
-//         <div className="align-items-center text-center about">
-//             <div className="icon text-center text-white bg-body-secondary pb-2 ps-3 pe-5 rounded-circle fs-2">
-//                 {props.icon}
-//             </div>
-//             <h2 className="mt-2 fs-4 text-secondary-emphasis">{props.heading}</h2>
-//             <p className="text-secondary">{props.text}</p>
-//             <div className="arrow d-flex mx-5 ps-4 pe-4">
-//                 <a href="#" className="px-2 fw-bold" style={{color:'#6610f2',textDecoration:'none'}}>Learn more</a>
-//                 <i style={{color:'#6610f2'}}><BsArrowRight /></i>
-//             </div>
 
-//         </div>
-//     );
-// }
  
-// export default AboutProp;
+export const AboutProp = (props) =>{
+    return(
+        <a className="about col-sm-9 col-md-8 col-lg-3">
+            <div className="about-icon p-2 w-25 color fs-2 bg-light">{props.icon}</div>
+            <h5 className="text-secondary-emphasis">{props.title}</h5>
+            <p className="text-secondary">{props.text}</p>
+            <div className="color arrow d-flex justify-content-center">
+                <p>Learn More</p>
+                <i><BsArrowRight/></i>
+            </div>
+        </a>
+    )
+}
 
 export const Stats = (props) =>{
     return(
         <div>
             <h3 style={{color:'#6610f2'}}>{props.number}</h3>
-            <h3 className="text-body-secondary ps-auto">{props.name}</h3>
+            <h3 className="text-body-secondary">{props.name}</h3>
         </div>
     )
 }
@@ -87,6 +84,25 @@ export const RecentPost = (props) =>{
             </div>
             <div>
                 <img src={props.image} className="rounded ms-3 w-75" alt={props.alt} />
+            </div>
+        </div>
+    )
+}
+export const TestimonialProp = (props) =>{
+    return(
+        <div className="row">
+            <div className="col-sm-6 col-md-6 col-lg-7 mt-auto">
+                <p className="fs-4"><i className="color"><RiDoubleQuotesL/></i>{props.paragraph}<i className="color"><RiDoubleQuotesR/></i></p>
+                <div className="d-flex">
+                    <img className="rounded-circle testimonial-img" src={props.author} alt={props.authoralt} />
+                    <div>
+                        <h2 className="color">{props.name}</h2>
+                        <p>{props.occupation}</p>
+                    </div>
+                </div>
+            </div>
+            <div className="col-sm-6 col-md-6 col-lg-5">
+                <img className="test-height rounded" src={props.img} alt={props.alt} />
             </div>
         </div>
     )

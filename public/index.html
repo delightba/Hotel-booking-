@@ -1,15 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <!-- <meta charset="utf-8" /> -->
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+    <!-- <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
-    />
+    /> -->
+    <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link
+  rel="stylesheet"
+  type="text/css"
+  charset="UTF-8"
+  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+/>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+/>
+
+<!-- CSS Global Compulsory -->
+<link rel="stylesheet" href="../../assets/vendor/bootstrap/css/bootstrap.css">
+
+<!-- CSS Implementing Plugins -->
+<link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+
+<!-- CSS Space Template -->
+<link rel="stylesheet" href="../../assets/css/theme.css">
+<!-- carousel -->
+<link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
+    
+    <!-- <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" /> -->
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -39,5 +67,23 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <!-- JS Global Compulsory -->
+<script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+<script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+<script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+<!-- JS Space -->
+<script src="../../assets/js/hs.core.js"></script>
+
+<!-- carousel js -->
+<script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
+<script src="../../assets/js/helpers/hs.slick-carousel.js"></script>
+<script>
+  $(document).on('ready', function () {
+    // initialization of slick carousel
+    $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+  });
+</script>
   </body>
 </html>

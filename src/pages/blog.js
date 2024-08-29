@@ -1,6 +1,8 @@
 import { BsArrowRight } from "react-icons/bs";
 import { BlogProp, PopularPost } from "../components/props";
 import Recent from "../components/recentPost";
+import Testimonial from "../components/testimonial";
+import Footer from "../components/footer";
 
 const Blog = () => {
     return ( 
@@ -42,6 +44,8 @@ const Blog = () => {
                     </div>
                 </div>   
             </div>
+            <Testimonial />
+            <Footer/>
         </div>
      );
 }

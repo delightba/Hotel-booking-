@@ -1,8 +1,9 @@
+import Footer from "../components/footer";
 
 const Home = () => {
     return (
         <div className="row mt-5 pt-4 home" style={{backgroundColor:'#f5f5f5'}}>
-            <div className="col-sm-12 col-md-6 col-lg-6 mx-auto my-auto">
+            <div className="col-sm-12 col-md-6 col-lg-6 sm-mb-5 mx-auto my-auto">
                 <div className="w-75 mx-auto text-div">
                     <h1 className="fw-bold text-secondary" style={{fontSize:'xxx-large'}}>Find Perfect Hotels</h1>
                     <h1 className="fw-bold" style={{fontSize:'xxx-large', color:'#6610f2'}}>anywhere you go.</h1>
@@ -13,7 +14,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <img src="../images/pool.png" alt="#" className="col-sm-12 col-md-6 col-lg-6 h-100" />
+            <img src="../images/pool.png" alt="#" className="col-sm-12 col-md-6 col-lg-6 h-100 mb-5" />
+            <Footer/>
         </div>
     )
 }
