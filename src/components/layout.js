@@ -20,7 +20,7 @@ const Layout = () => {
                             <Link className="text-decoration-none fw-bold text-primary-emphasis px-3" to="/pricing">Pricing</Link>
                             <Link className="text-decoration-none fw-bold text-primary-emphasis px-3" to="/blog">Blog</Link>
                         </Nav>
-                        <Link className="text-decoration-none fw-bold text-primary-emphasis" to="/blog">Log in</Link>
+                        <Link className="text-decoration-none fw-bold text-primary-emphasis">Log in</Link>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
