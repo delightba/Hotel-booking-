@@ -9,7 +9,8 @@ import Blog from './pages/blog';
 import Home from './pages/home';
 import {BrowserRouter , Routes , Route} from 'react-router-dom'
 import Pricing from './pages/pricing';
-import Movies from './pages/movieDB';
+import Example from './components/test';
+import CarouselFadeExample from './components/test';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <Route path='about' element={<About/>} />
           <Route path='blog' element={<Blog/>} />
           <Route path='pricing' element={<Pricing/>} />
-          <Route path='movieDB' element={<Movies />} />
+          <Route path='test' element={<CarouselFadeExample/>} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -31,23 +31,23 @@ function Footer() {
           </div>
         </div>
         <div className='bg-dark'>
-          <div className="d-flex gap-2 w-25 mx-auto pt-3">
+          <div className="d-flex gap-2 w-25 mx-auto justify-content-center pt-3">
             <h1 className="text-white p-2 rounded" style={{ backgroundColor: '#6610f2' }}>TR</h1>
             <h1 className="fs-5 w-50 ps-1 mt-2" style={{ color: '#f5f5f5' }}>Travel Reservation</h1>
           </div>
-          <div className='w-50 mx-auto container py-3 row'>
-            <Link className='text-white text-decoration-none px-1 col-sm-12 col-md-4 col-lg-2'>Home</Link>
-            <Link className='text-white text-decoration-none px-1 col-sm-12 col-md-4 col-lg-2'>About</Link>
-            <Link className='text-white text-decoration-none px-1 col-sm-12 col-md-4 col-lg-2'>Contact Us</Link>
-            <Link className='text-white text-decoration-none px-1 col-sm-12 col-md-4 col-lg-2'>Blog</Link>
-            <Link className='text-white text-decoration-none px-1 col-sm-12 col-md-4 col-lg-2'>Reviews</Link>
+          <div className=' justify-content-center mx-auto gap-3 d-flex py-3'>
+            <Link className='text-white text-decoration-none'>Home</Link>
+            <Link className='text-white text-decoration-none'>About</Link>
+            <Link className='text-white text-decoration-none'>Contact Us</Link>
+            <Link className='text-white text-decoration-none'>Blog</Link>
+            <Link className='text-white text-decoration-none'>Reviews</Link>
           </div>
-          <div className='d-flex gap-3 mx-auto w-25'>
+          <div className='d-flex gap-5 justify-content-center'>
             <Link className='text-white'><FaFacebookF /></Link>
             <Link className='text-white'><FaTwitter /></Link>
             <Link className='text-white'><FaYoutube /></Link>
           </div>
-          <p className='text-secondary p-4 w-50 mx-auto'>&copy; Copyright 2024, Travel Reservation Inc. All Rights Reserved.</p>
+          <p className='text-secondary py-3 ps-5 w-50 mx-auto'>&copy; Copyright 2024, Travel Reservation Inc. All Rights Reserved.</p>
         </div>
       </footer>
   )

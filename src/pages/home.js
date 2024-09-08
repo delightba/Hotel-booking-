@@ -10,7 +10,7 @@ const Home = () => {
                     <p className="fs-5">We've been in the hotels business across the world for 5 years now. We assure you that you will always enjoy your stay with us.</p>
                     <div className="accounts justify-content-center">
                         <button type="button" class="btn btn-lg mx-2 text-white px-5 py-2" style={{backgroundColor:'#6610f2'}}>Sign Up</button>
-                        <button type="button" class="btn btn-lg btn-secondary text-secondary-emphasis mx-2 px-4">Search Hotels</button>
+                        <button type="button" class="btn btn-lg bg-secondary-subtle text-secondary-emphasis mx-2 px-4">Search Hotels</button>
                     </div>
                 </div>
             </div>

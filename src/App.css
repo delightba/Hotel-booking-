@@ -13,6 +13,7 @@
 .color{
   color: #6610f2;
 }
+/* about page */
 .about{
   text-align: center;
   text-decoration: none;
@@ -46,14 +47,26 @@
 .aboutone{
   margin-top: 10%;
 }
+.testimony{
+  margin-bottom: -11rem;
+}
+@media screen and (max-width: 600px) {
+  .testimony{
+    margin-bottom: 0;
+  }
+}
+.bg-color{
+  background-color: #6610f2;
+}
 .testimonial-img{
-  width: 10%;
-  height: 80px;
+  width: 4rem;
+  height: 4rem;
 }
 .test-height{
   height: 32rem;
   z-index: 0;
 }
+/* blog-page */
 .testimonial{
   z-index: 1;
   margin-bottom: -13%;
@@ -68,7 +81,35 @@
 .input-group{
   height: 3rem;
 }
-
+.hover{
+  text-decoration: none;
+}
 .bg-dark p{
   margin-bottom: 0;
+}
+/* pricing page */
+.slider-img{
+  height: 16rem;
+  border-radius: 3rem 0 0 0;
+}
+.border{
+  border-radius: 3rem 0 3rem 0;
+}
+.slider-btn{
+  border: none;
+  border-radius: 0 0 3rem 0;
+}
+.pricing-img{
+  height: 20rem;
+}
+.font-size{
+  font-size: smaller;
+}
+.circle{
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+}
+.rotate-180 {
+  transform: rotate(180deg);
 }

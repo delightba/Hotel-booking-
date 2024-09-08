@@ -1,4 +1,3 @@
-// import AboutProp from "../components/props";
 import { RiCustomerService2Fill, RiShieldFlashLine } from "react-icons/ri";
 import Footer from "../components/footer";
 import { AboutProp, Stats } from "../components/props";

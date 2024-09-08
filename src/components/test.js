@@ -1,7 +1,6 @@
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css'
-import { SliderProp } from "./props";
 
 
 
@@ -60,43 +59,11 @@ const PricingSlider = () => {
 
     ]
   };
-
-
-
-
-  return (
+  return(
     <div className="slider-container">
-      <Slider {...settings}>
-        <SliderProp
-          image='../images/hotel.jpg'
-          heading='Soho Paradise'
-          rating={4.9}
-          location='Ibiza, Spain'
-          price={50}
-        />
-        <SliderProp
-          image='../images/Hero-image.png'
-          heading='Hotel Baja'
-          rating="5.0"
-          location='Palo Alto, CA'
-          price={19}
-        />
-        <SliderProp
-          image='../images/hotel1.jpg'
-          heading='Hudak Homes'
-          rating={4.5}
-          location='Arizona, RAK'
-          price={99}
-        />
-        <SliderProp
-          image='../images/spain.jpg'
-          heading='Wyatt Residency'
-          rating={4.8}
-          location='Rome, Italy'
-          price={39}
-        />
-      </Slider>
+        <Slider {...settings}>
+
+        </Slider>
     </div>
-  )
-}
-export default PricingSlider;
+  )}
+  export default PricingSlider
